@@ -1,8 +1,8 @@
-# EE7306 – Image Processing and Computer Vision
+# EE4216 – Image Processing and Computer Vision
 
 This repository contains lecture materials, lab notebooks, examples, and supporting resources for the module:
 
-**EE7306 – Image Processing and Computer Vision**  
+**EE4216 – Image Processing and Computer Vision**  
 BSc (Hons) Engineering – Mechatronics / Electronic & Telecommunication  
 CINEC Campus
 
@@ -46,24 +46,24 @@ Type commands manually. Do NOT copy–paste from Word or PDFs.
 
 Create the environment:
 ```bash
-conda create --name ee7306 python=3.10
+conda create --name ee4216 python=3.10
 ```
 
 Activate the environment:
 ```bash
-conda activate ee7306
+conda activate ee4216
 ```
 
 You should see:
 ```
-(ee7306)
+(ee4216)
 ```
 
 ---
 
 ## 4. Install Required Libraries
 
-Ensure the ee7306 environment is active.
+Ensure the ee4216 environment is active.
 
 ```bash
 conda install numpy matplotlib scipy
@@ -90,7 +90,7 @@ conda install jupyterlab ipykernel
 
 Register the kernel:
 ```bash
-python -m ipykernel install --user --name ee7306 --display-name "EE7306 (Python)"
+python -m ipykernel install --user --name ee4216 --display-name "EE4216 (Python)"
 ```
 
 ---
@@ -104,7 +104,7 @@ jupyter notebook
 
 Create a new notebook and select kernel:
 ```
-EE7306 (Python)
+EE4216 (Python)
 ```
 
 All lab work and submissions must use this kernel.
